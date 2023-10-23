@@ -1,0 +1,32 @@
+.heading{
+    font-size: 36px;
+    color: rgb(32, 31, 32);
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.main-list li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+
+li a{
+    text-decoration: none;
+    color: rgb(32, 31, 32);
+}
+
+li a:hover{
+    color: rgb(72, 128, 94);
+}
+
+.recipe-img {
+    text-align: center;
+}
+
+.recipe-img img{
+    width: 400px;
+    height: auto;
+}
