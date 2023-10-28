@@ -1,4 +1,9 @@
-body {
+* {
+    /*padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    */
     background-color: #f0ede5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -7,7 +12,10 @@ body {
     color: #1d1c1c;
 }
 
+
 h1.heading{
+    padding: 10px;
+    margin: 20px;
     font-size: 36px;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -21,15 +29,24 @@ h2.subheading {
     text-decoration: underline;
 }
 
+/*
 div ul.main-list{
     text-align: center;
+}
+*/
+ul.main-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 .main-list li {
     list-style-type: none;
     line-height: 30px;
     font-weight: 800;
+    padding:20px;
 }
+
 
 
 li a{
