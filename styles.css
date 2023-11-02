@@ -1,9 +1,6 @@
+/* 
 * {
-    /*padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-    */
+ 
     background-color: #f0ede5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -29,15 +26,9 @@ h2.subheading {
     text-decoration: underline;
 }
 
-/*
-div ul.main-list{
-    text-align: center;
-}
-*/
-ul.main-list {
-    display: flex;
-    justify-content: center;
-    padding: 0;
+
+.recipe-box{
+    background-color: #555;
 }
 
 .main-list li {
@@ -70,4 +61,77 @@ li a:visited{
 .recipe-img img{
     width: 400px;
     height: auto;
+} */
+
+
+body{
+    background-color: #eee2d7;
+    color: #161616;
 }
+
+h1.heading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.highlight{
+    color: rgb(245, 130, 23);
+}
+
+.recipe-holder {
+    text-align: center;
+}
+
+ul.main-list div {
+    display: inline-block;
+    background-color: rgb(246, 247, 244);
+    box-sizing: border-box;
+    width: 200px;
+    height: 280;
+
+    /*padding: 30px 30px 20px 30px;*/
+    padding-bottom: 15px;
+    margin: 10px;
+
+    border-radius: 10px;
+}
+
+ul.main-list div:hover{
+    box-shadow: 5px 5px 5px #7c7b7960, -5px 5px 5px #7c7b7960;
+
+}
+
+ul.main-list div li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+ul.main-list div li span.wrapper{
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+ul.main-list div li span.wrapper img{
+    height: 150%;    
+}
+
+ul.main-list div li a {
+    color: #1b1b1b;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+span.space {
+    display:block;
+    height: 15px;
+}
+
+/* Recipe */
+
